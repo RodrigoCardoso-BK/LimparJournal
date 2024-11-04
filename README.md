@@ -1,4 +1,4 @@
-# Como Criar um Executável com PyInstaller
+# LimparJournal
 
 Este repositório contém um script Python chamado `interface.py`. Siga as instruções abaixo para instalar o PyInstaller, navegar até a pasta do arquivo e criar um executável.
 
@@ -14,19 +14,12 @@ Abra o terminal e execute o comando abaixo para instalar o PyInstaller:
 ```sh
 pip install pyinstaller
 
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-
-cd caminho/para/o/diretorio
-
-pyinstaller --onefile --noconsole interface.py
-
 2. Clone o Repositório
 Clone o repositório para sua máquina local:
 
 sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/RodrigoCardoso-BK/LimparJournal.git
+cd LimparJournal
 3. Navegue até a Pasta do Arquivo
 Certifique-se de estar no diretório onde o arquivo interface.py está localizado:
 
