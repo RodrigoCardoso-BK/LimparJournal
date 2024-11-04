@@ -1,25 +1,39 @@
-# Como Executar o Arquivo `interface.py`
+# Como Criar um Executável com PyInstaller
 
-Este repositório contém um script Python chamado `interface.py`. Siga as instruções abaixo para baixar o código e gerar um executável que pode ser executado sem abrir o console.
+Este repositório contém um script Python chamado `interface.py`. Siga as instruções abaixo para instalar o PyInstaller, navegar até a pasta do arquivo e criar um executável.
 
 ## Pré-requisitos
 
-- Python instalado em sua máquina.
-- PyInstaller instalado. Você pode instalar o PyInstaller usando pip:
-  ```sh
-  pip install pyinstaller
-  
-Passos
-1. Clone o Repositório
+Certifique-se de ter o Python instalado em sua máquina.
+
+## Passos
+
+### 1. Instale o PyInstaller
+
+Abra o terminal e execute o comando abaixo para instalar o PyInstaller:
+```sh
+pip install pyinstaller
+
+git clone https://github.com/seu-usuario/seu-repositorio.git
+cd seu-repositorio
+
+cd caminho/para/o/diretorio
+
+pyinstaller --onefile --noconsole interface.py
+
+2. Clone o Repositório
 Clone o repositório para sua máquina local:
 
 sh
-git clone https://github.com/RodrigoCardoso-BK/LimparJournal.git
-
+git clone https://github.com/seu-usuario/seu-repositorio.git
 cd seu-repositorio
+3. Navegue até a Pasta do Arquivo
+Certifique-se de estar no diretório onde o arquivo interface.py está localizado:
 
-2. Gere o Executável
-3. Use o PyInstaller para criar um executável a partir do arquivo interface.py sem abrir o console:
+sh
+cd caminho/para/o/diretorio
+4. Crie o Executável
+Use o PyInstaller para criar um executável a partir do arquivo interface.py sem abrir o console:
 
 sh
 pyinstaller --onefile --noconsole interface.py
@@ -29,10 +43,10 @@ Explicação das opções:
 
 --noconsole ou -w: Evita que o console seja aberto quando o executável for executado.
 
-3. Encontre o Executável Gerado
+5. Encontre o Executável Gerado
 Após executar o comando acima, o PyInstaller criará uma pasta dist no mesmo diretório onde o comando foi executado. O executável estará localizado dentro dessa pasta.
 
-4. Execute o Executável
+6. Execute o Executável
 Agora, você pode executar o arquivo gerado (por exemplo, interface.exe no Windows) sem abrir o console:
 
 sh
