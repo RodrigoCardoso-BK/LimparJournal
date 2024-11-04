@@ -14,10 +14,12 @@ Passos
 Clone o repositório para sua máquina local:
 
 sh
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/RodrigoCardoso-BK/LimparJournal.git
+
 cd seu-repositorio
+
 2. Gere o Executável
-Use o PyInstaller para criar um executável a partir do arquivo interface.py sem abrir o console:
+3. Use o PyInstaller para criar um executável a partir do arquivo interface.py sem abrir o console:
 
 sh
 pyinstaller --onefile --noconsole interface.py
