@@ -4,11 +4,12 @@ Este repositório contém um script Python chamado `interface.py`. Siga as instr
 
 ## Pré-requisitos
 
-1. **Realizar o Download do Repositório**
+1. **Realizar o Download do Python 3**
+2. **Realizar o Download do Repositório**
 
    - Baixe o repositório no formato ZIP e descompacte-o no local de sua preferência.
 
-2. **Instalar o PyInstaller**
+3. **Instalar o PyInstaller**
 
    - Abra o terminal e instale o PyInstaller com o comando:
      ```bash
